@@ -17,10 +17,8 @@ COPY . .
 EXPOSE 3000
 
 # Start the application with the `npm start` command
-CMD [ "npm", "start" ]
 
-# Build the application with the `npm build` command
-RUN npm run build
 
-# Stop the application with the `npm stop` command
-#CMD [ "npm", "stop" ] 
+CMD npm run start
+
+
